@@ -1,6 +1,6 @@
 # Wordle Clone
 
-Wordle Clone is a simple game immitating the famous Wordle. It is built with Expo React-Native.
+Wordle Clone is a simple game imitating the famous Wordle game. It is built with Expo React-Native.
 
 ## Project Setup
 
@@ -21,7 +21,7 @@ npm install
 
 3. Install Expo Go on your mobile phone
 
-4. Run the app localy:
+4. Run the app locally:
 
 ```bash
 expo start
@@ -33,4 +33,4 @@ or
 npm start
 ```
 
-Scan the QR code above with Expo Go (Android) or the Camera app (iOS) to lunch the app on your phone.
+Scan the QR code in the console (you may need to scroll up) with Expo Go (Android) or the Camera app (iOS) to lunch the app on your phone.
