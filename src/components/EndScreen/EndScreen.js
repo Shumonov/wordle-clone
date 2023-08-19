@@ -78,7 +78,7 @@ const EndScreen = ({ won = false, rows, getCellBGColor }) => {
 
   useEffect(() => {
     readState();
-  }, []);
+  }, [distribution]);
 
   const share = () => {
     const textMap = rows
@@ -142,6 +142,9 @@ const EndScreen = ({ won = false, rows, getCellBGColor }) => {
       }
       prevDay = day;
     });
+    if (_curStreak > maxStreak) {
+      maxStreak = _curStreak;
+    }
     setCurStreak(_curStreak);
     setMaxStreak(maxStreak);
 
